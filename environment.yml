@@ -1,0 +1,11 @@
+name: vscode_env
+channels:
+  - anaconda
+  - default
+dependencies:
+  - anaconda::python=3.7
+  - anaconda::pip
+  - anaconda::pylint
+  - anaconda::flake8
+  - conda-forge::black
+  - nodejs
