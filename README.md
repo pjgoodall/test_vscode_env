@@ -1,5 +1,14 @@
 # Visual Studio Code .env file does not provide access to PYTHONPATH
 
+## Update
+
+I have updated my test source `test_PYTHONPATH.py` to allow it to trap library and environment access exceptions.
+
+Please note the difference between the vscode 'run' and 'debug' results. You may see different effects depending on history of establishing the content of the `.env` file.
+I don't think there is an automatic update of the environment when .env is edited. I have seen it scanned when I changed the python environment to another and back again, otherwise the edits dont seem to have an effect.
+
+## Links
+
 https://github.com/microsoft/vscode/issues/94338
 
 files are in github repository https://github.com/pjgoodall/test_vscode_env
